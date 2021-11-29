@@ -14,4 +14,10 @@ cd portainer_installers\
 chmod +x  docker_install.sh && chmod +x portainer_install.sh  
 ```
 
+```chmod +x portainer_update\
+bash portainer_update 
+```
+
+The last part needs only be ran when portainer has an update and you want to update. If no need to update no need to run. Just there to make it easier. 
+
 ## Then run the commands. 
