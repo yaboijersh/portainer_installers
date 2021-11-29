@@ -14,7 +14,8 @@ cd portainer_installers\
 chmod +x  docker_install.sh && chmod +x portainer_install.sh  
 ```
 
-```chmod +x portainer_update\
+```
+chmod +x portainer_update\
 bash portainer_update 
 ```
 
