@@ -22,3 +22,4 @@ bash portainer_update
 The last part needs only be ran when portainer has an update and you want to update. If no need to update no need to run. Just there to make it easier. 
 
 ## Then run the commands. 
+Currently Does not run on rocky linux.
