@@ -13,6 +13,16 @@ git clone https://github.com/joshmross/portainer_installers.git
 cd portainer_installers
 chmod +x  docker_install.sh && chmod +x portainer_install.sh  
 ```
+After the chmod is done. You can run the scripts. They need to be ran one after the other starting with docker since docker is the base for this.
+
+```
+./docker_install.sh 
+./poratiner_install.sh 
+```
+Run the docker command first to install docker then you can run portainer afterwards to isntaller portainer. Listen to Docker install script and either reboot or logg off for changes to take effect. 
+
+
+After the install Portainer can be found on port 9000 not 9001 as stated in documentation. After you're able to load the webpage you can follow the documentaiton down to a T. 
 
 ```
 chmod +x portainer_update
