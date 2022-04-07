@@ -22,7 +22,7 @@ After the chmod is done. You can run the scripts. They need to be ran one after 
 Run the docker command first to install docker then you can run portainer afterwards to isntaller portainer. Listen to Docker install script and either reboot or logg off for changes to take effect. 
 
 
-After the install Portainer can be found on port 9000 not 9001 as stated in documentation. After you're able to load the webpage you can follow the documentaiton down to a T. 
+After the install Portainer can be found on port 9001 as stated in documentation. After you're able to load the webpage you can follow the documentaiton down to a T. 
 
 ```
 chmod +x portainer_update
@@ -32,4 +32,4 @@ bash portainer_update
 The last part needs only be ran when portainer has an update and you want to update. If no need to update no need to run. Just there to make it easier. 
 
 ## Then run the commands. 
-Currently Does not run on rocky linux.
+Currently Does not work on Alma or Rocky due to it those OS's 
